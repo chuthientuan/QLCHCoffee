@@ -62,6 +62,7 @@ namespace BTL
             // 
             // txtLogin
             // 
+            this.txtLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLogin.Location = new System.Drawing.Point(506, 484);
             this.txtLogin.Multiline = true;
             this.txtLogin.Name = "txtLogin";
@@ -70,6 +71,7 @@ namespace BTL
             // 
             // txtPassword
             // 
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.Location = new System.Drawing.Point(506, 653);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
@@ -79,6 +81,8 @@ namespace BTL
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(44)))), ((int)(((byte)(33)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(225)))), ((int)(((byte)(191)))));
             this.btnLogin.Location = new System.Drawing.Point(506, 878);
@@ -87,8 +91,6 @@ namespace BTL
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "ĐĂNG NHẬP";
             this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.FlatStyle = FlatStyle.Flat;
-            this.btnLogin.FlatAppearance.BorderSize = 0;
             // 
             // Form1
             // 
