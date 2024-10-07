@@ -25,4 +25,5 @@ namespace BTL
                 OnSwitchToHome(this, EventArgs.Empty);
             }
         }
+    }
 }
